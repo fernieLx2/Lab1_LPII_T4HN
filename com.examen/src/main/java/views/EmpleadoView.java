@@ -18,15 +18,15 @@ public class EmpleadoView {
 		*/
 		
 		
-		//------------METODO DeleteUsuario-----------------
+		//------------METODO DeleteEmpleado-----------------
 		//empleado = new EmpleadoController().deleteEmpleado(1);
 		
 		
-		//------------METODO UpdateUsuario-----------------
+		//------------METODO UpdateEmpleado-----------------
 		//empleado = new EmpleadoController().updateEmpleado(4, "Benito");
 		
 		
-		//------------METODO GetUsuario-----------------
+		//------------METODO GetEmpleado-----------------
 		empleado = new EmpleadoController().getEmpleado(4);
 		
 		System.out.println(empleado);

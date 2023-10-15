@@ -10,7 +10,7 @@ import models.Empleado;
 
 public class EmpleadoController {
 
-	//CREACION DE USUARIO
+	//CREACION DE EMPLEADO
 			public String createEmpleado(String apellidos, String nombres, int edad, String sexo, double salario) {
 				
 				SessionFactory sessionFactory;
@@ -32,7 +32,7 @@ public class EmpleadoController {
 					sessionFactory.close();
 					return "empleado creado";
 
-				//si sale mal la conexion	
+				
 				} catch (Exception e) {
 					
 					e.printStackTrace();
@@ -41,7 +41,7 @@ public class EmpleadoController {
 				return "Error al crear empleado";
 			}
 			
-			//ELIMINAR USUARIO
+			//ELIMINAR EMPLEADO
 			public String deleteEmpleado(int idEmpleado) {
 				
 				
@@ -63,10 +63,10 @@ public class EmpleadoController {
 												 
 					session.delete(empleado);
 					
-					//confirmar la data para eliminar
+					
 					session.getTransaction().commit();
 					
-					//cerramos la transaccion
+					
 					sessionFactory.close();
 					
 					return "empleado eliminado correctamente";
@@ -80,7 +80,7 @@ public class EmpleadoController {
 			}
 			
 			
-			//ACTUALIZAR USUARIO
+			//ACTUALIZAR EMPLEADO
 			public String updateEmpleado(int idEmpleado, String apellidos) {
 										
 			
@@ -116,7 +116,7 @@ public class EmpleadoController {
 			}
 			
 			
-			//LEER U OBTENER USUARIO
+			//LEER U OBTENER EMPLEADO
 			public String getEmpleado(int idEmpleado) {
 				
 				SessionFactory sessionFactory;
