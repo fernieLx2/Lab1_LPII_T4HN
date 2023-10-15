@@ -1,0 +1,7 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.examen</groupId>
+  <artifactId>com.examen</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Exa_lp2_T4XN-01_Luis_Luque</name>
+</project>
